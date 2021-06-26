@@ -2,6 +2,7 @@ package App;
 
 import org.apache.log4j.Appender;
 import org.apache.log4j.ConsoleAppender;
+import org.apache.log4j.HTMLLayout;
 import org.apache.log4j.Layout;
 import org.apache.log4j.Logger;
 import org.apache.log4j.SimpleLayout;
@@ -13,7 +14,7 @@ public class TestAppl {
 	
 	public static void main(String[] args) {
 		//1. Create Layout
-		Layout layout = new SimpleLayout();
+		Layout layout = new HTMLLayout();
 		//2. Create Appender + link Layout
 		Appender app = new ConsoleAppender(layout);
 		//3 Link appender with logger
