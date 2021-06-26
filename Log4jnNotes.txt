@@ -1,0 +1,62 @@
+a.Logger(WHİCH CLASS)
+
+if we get any exceptions/errors inside class we can trace those into Log File
+
+b.Appender(WHERE TO PRİNT)
+Appenr is used to specify where to storeLog Message
+
+Console Appender
+Fİle Appender
+Jdbc Appender
+Ftp Appender
+SMTP Appender
+
+c.Layout(HOW TO PRİNT)
+
+
+it incdicates message format that shouldbe printed on Appender.
+Simple Layout: Print Message as it is given by Application
+2)HTML LAYOUT: Prin Message as HTML FİLE.
+3)XML Layout: Print message as XML Output
+4)*** Pattern Layout: Print Message as Given pattern by Developer.
+
+-----------------
+Priority Methods :
+
+These are pre-defined methods given inside Logger Ibject.By usşing these methods we have to print messages at Appender
+
+slno	NAME	METHOD 
+-----------------------
+1.	DEBUG	debug(msg) --> success message final message
+2.	İNFO	info(msg) --> current state of execution
+3.	WARN	warn(msg) ---> any warnings
+4.	ERROR	error(msg) ---> will use exceptions
+5.	FATAL	fatal(msg) ---> for example network connection.
+-NA-	OFF	--NA--
+
+
+DEBUG : FİNAL SUCCESS MESSAGE
+Ex: Employee created with ID-EMP-3652 Successfully
+
+INFO: This method is used to print current status in execution
+ex: Request cam to Controller method
+OBject sent to service layer
+Service Returned back to controller
+try block execution completed.
+
+WARN :This methgod is used to print warnings in application
+ex: file object is creaated but never closed
+Variable is reated but not used
+
+
+Error: This method is used to print any general Exception
+Ex: NullPointerException,ArrayIndexOutOfBoundsException ...etc
+
+FATAL: This method is used to print any High Level Exception that makes 
+
+STOPING application usage 
+Ex: DB Connection is not working
+Network server/Middle ware server is down.
+Spring boot will handle .
+
+
