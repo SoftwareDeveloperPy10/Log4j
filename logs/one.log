@@ -1,0 +1,5 @@
+21-06-26 07:40 DEBUG :App.TestApp3[main] DEBUG 
+21-06-26 07:40 INFO :App.TestApp3[main] INFO 
+21-06-26 07:40 WARN :App.TestApp3[main] WARN 
+21-06-26 07:40 ERROR :App.TestApp3[main] ERR 
+21-06-26 07:40 FATAL :App.TestApp3[main] FATAL 
