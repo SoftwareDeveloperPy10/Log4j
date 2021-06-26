@@ -60,3 +60,14 @@ Network server/Middle ware server is down.
 Spring boot will handle .
 
 
+
+%C =CLASS NAME
+%M= Method Name
+%m = Message
+%p = Priority Method Name(DEBUG,İNFO..)
+%L = Lİne Number
+%l = Line number with link
+%n = NEW LİNE
+%r= time in milli sec.
+%%= to print one '%' symbol
+
